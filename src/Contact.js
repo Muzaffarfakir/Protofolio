@@ -16,7 +16,10 @@ export default function Contact() {
             axios.post("https://protofolioback.onrender.com/Contact", { name, email, sub, body }).then((res) => {
                 console.log(res)
             })
+             alert("Thank You For Contacting Us ! We Got Your Mail ")
         }
+               
+
     }
 
 
