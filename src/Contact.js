@@ -13,7 +13,7 @@ export default function Contact() {
             alert("Fill All Details Plzz")
 
         } else {
-            axios.post("https://protofolioback.onrender.com/", { name, email, sub, body }).then((res) => {
+            axios.post("https://protofolioback.onrender.com/Contact", { name, email, sub, body }).then((res) => {
                 console.log(res)
             })
         }
